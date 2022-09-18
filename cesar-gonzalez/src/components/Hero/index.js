@@ -3,7 +3,7 @@ import coverImage from "../../assets/cover/image1.jpeg";
 
 function Hero() {
   return (
-    <section className="my-5 hero">
+    <section className="my-5  hero flex-row">
           <div className="hero-text">
             <h3>Web Developer: Full Stack</h3>
         </div>

@@ -54,10 +54,13 @@ body {
 }
 
 .hero {
-  display: flex;
+  
   justify-content: center;
   align-items: center;
+  height: 75vh;
 }
+
+
 
 h1,
 h2,
@@ -112,10 +115,26 @@ a:hover {
 
 header {
   background: var(--dark);
+  justify-content: space-between;
+  border-top: 1rem solid var(--green);
+  border-bottom: 1rem solid white;
 }
 
 header a {
   color: var(--light);
+  padding: 10px 10px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+header span {
+  color: var(--light);
+  padding: 10px 10px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.aboutme {
+  height: 75vh;
 }
 
 button {
@@ -226,7 +245,6 @@ textarea {
 }
 
 .my-5 {
-  margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
 }
 
